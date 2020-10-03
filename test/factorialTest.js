@@ -36,7 +36,7 @@ describe('Factorials of numbers', () => {
   });
 
   //   checks if the value of factorial(5) is equal to 120
-  it('should return infinity for factorial of infinity', () => {
-    assert.equal(factorial(175), 1504960400);
+  it('should return infinity for factorial of numbers greater than 170', () => {
+    assert.equal(factorial(171), Infinity);
   });
 });

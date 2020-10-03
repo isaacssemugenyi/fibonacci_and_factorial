@@ -20,6 +20,6 @@ function factorial(number) {
   }
 }
 
-// calculator(30, factorial);
+// calculator(175, factorial);
 
 module.exports = factorial;
