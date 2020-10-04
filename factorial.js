@@ -1,4 +1,10 @@
 /**
+ * Group Members
+ * Walter Ruganzu
+ * Mike Mwanje
+ * Isaac Ssemugenyi
+ * Davies Wabuluka
+ * 
  * n!, is the product of all positive integers less than or equal to n
  * Given a number n , n! = n.(n-1).(n-2).(n-3)......1
  */

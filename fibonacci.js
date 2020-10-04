@@ -1,4 +1,10 @@
 /**
+ * Group Members
+ * Walter Ruganzu
+ * Mike Mwanje
+ * Isaac Ssemugenyi
+ * Davies Wabuluka
+ * 
  * Fibonacci Numbers = Are numbers where the preceeding number
  * is the sum of two previous fibonacci numbers
 */
