@@ -20,7 +20,7 @@ describe('Fibonacci Numbers', function(){
         assert.equal(fibonacci(2), 1);
     })
 
-    it('fib(100) = 102334155', function(){ 
-        assert.equal(fibonacci(40), 500);
+    it('fib(40s) = 102334155', function(){ 
+        assert.equal(fibonacci(40), 102334155);
     })
 })

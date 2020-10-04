@@ -26,6 +26,6 @@ describe('factiorial numbers', function(){
 
   //   checks if the value of factorial(5) is equal 120
   it('fact(5) = 120', function(){ 
-    assert.isString(factorial(175));
+    assert.isString(factorial(175), 1504960400);
   })
 })
