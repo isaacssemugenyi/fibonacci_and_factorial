@@ -15,7 +15,6 @@ function factorial(number) {
     result = "Number can't be a negative";
     return result;
   } else if (number === 0 || number === 1) {
-    result *= 1;
     return result;
   } else {
     for (let counter = number; counter > 1; counter -= 1) {
