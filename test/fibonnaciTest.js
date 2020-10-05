@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const { assert } = require('chai');
 const F = require('../fibonacci');
 
