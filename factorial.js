@@ -17,10 +17,7 @@ function factorial(number) {
   } if (number === 0 || number === 1) {
     return result;
   }
-  for (let counter = number; counter > 1; counter -= 1) {
-    result *= counter;
-  }
-  return result;
+  return number * factorial(number - 1);
 }
 
 // iterator(175, factorial);
