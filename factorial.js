@@ -11,7 +11,10 @@ const iterator = require("./iterator");
 
 function factorial(number) {
   let result = 1;
-  if (number < 0) {
+  if (typeof number === 'string') {
+    result = 'Factorial can\'t be a string';
+    return result;
+  }else if (number < 0) {
     result = "Number can't be a negative";
     return result;
   } else if (number === 0 || number === 1) {
@@ -23,6 +26,8 @@ function factorial(number) {
     return result;
   }
 }
+
+console.log(factorial('home'));
 
 // iterator(175, factorial);
 
