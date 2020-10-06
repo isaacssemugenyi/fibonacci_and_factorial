@@ -11,13 +11,22 @@
 // const iterator = require('./iterator');
 
 function fibonacci(number) {
-  if (number < 0) {
-    return 0;
-  } if (number < 2) {
-    return number;
-  } return fibonacci(number - 1) + fibonacci(number - 2);
+  if (number < 1) return 0;
+  if (number === 1) return 1;
+  if (number === 2) return 1;
+  let begin = 0;
+  let result = 1;
+  let sum;
+  let i = 2;
+  while (i < number + 1) {
+    sum = begin + result;
+    begin = result;
+    result = sum;
+    i += 1;
+  }
+  return result;
 }
 
-// iterator(30, fibonacci);
+// iterator(9, fibonacci);
 
 module.exports = fibonacci;
