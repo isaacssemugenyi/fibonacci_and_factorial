@@ -9,6 +9,7 @@
  */
 // const iterator = require('./iterator');
 
+// Switching algorithm from loop to recurrsive
 function factorial(number) {
   let result = 1;
   if (number < 0) {

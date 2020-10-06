@@ -10,6 +10,7 @@
  */
 // const iterator = require('./iterator');
 
+// Switching algorithm from recurrsive to loop
 function fibonacci(number) {
   if (number < 1) return 0;
   if (number === 1) return 1;
