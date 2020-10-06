@@ -1,3 +1,9 @@
+// # Group Members
+//  * Walter Ruganzu
+//  * Mike Mwanje
+//  * Isaac Ssemugenyi
+//  * Davies Wabuluka
+
 const chalk = require('chalk');
 const text = require('./styles');
 
