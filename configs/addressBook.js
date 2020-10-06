@@ -1,4 +1,6 @@
 /**
+ * This is still under development and modification
+ * 
  * Address Book to take in Full name and Phone number
  * With an option to only submit the phone number without the Full name
  * Ability to delete a number from the contact array
