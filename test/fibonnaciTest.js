@@ -1,7 +1,7 @@
 const { assert } = require('chai');
-const F = require('../fibonacci');
+const F = require('../fibonacci/fibonacci');
 
-describe('Recursive Fibonacci', () => {
+describe('Fibonacci With A While-Loop', () => {
   const fibonacci = F;
 
   // Failing test

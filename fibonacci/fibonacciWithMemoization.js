@@ -7,7 +7,6 @@
  * Fibonacci Numbers = Are numbers where the preceeding number
  * is the sum of two previous fibonacci numbers
 */
-//  const iterator = require('./iterator');
 
 // Memoized Function
 let memoizedFibonacci = (function (){
@@ -23,7 +22,6 @@ let memoizedFibonacci = (function (){
     return fib;
 })();
 
-//  iterator(50, memoizedFibonacci);
 // console.log(memoizedFibonacci(50));
 
 module.exports = memoizedFibonacci;

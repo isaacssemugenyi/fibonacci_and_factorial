@@ -1,8 +1,8 @@
 const { assert } = require('chai');
-const mF = require('../fibonacciWithMemoization');
+const F = require('../fibonacci/fibonacciWithMemoization');
 
 describe('Memoized Fibonacci', () => {
-  const memoizedFibonacci = mF;
+  const memoizedFibonacci = F;
 
   // Failing test
   it('Failing test', () => {

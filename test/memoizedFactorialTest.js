@@ -1,5 +1,5 @@
 const { assert } = require('chai');
-const F = require('../factorialWithMemoization');
+const F = require('../factorial/factorialWithMemoization');
 
 describe('Memoized Factorial', () => {
   const factorial = F;

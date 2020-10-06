@@ -7,7 +7,6 @@
  * Walter Ruganzu
 */
 
-// const iterator = require('./iterator');
 
 var fact = (function() { 
     // Initialise a memory cache object

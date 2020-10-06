@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 const { assert } = require('chai');
-const F = require('../factorial');
+const F = require('../factorial/factorial');
 
-describe('Factorial With A For-Loop', () => {
+describe('Recursive Factorial', () => {
   const factorial = F;
   // Failing test
   it('Failing test', () => {

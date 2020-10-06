@@ -1,3 +1,2 @@
 node_modules
-test/appTest.js
-app.js
+configs/addressBook.js
